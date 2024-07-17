@@ -54,9 +54,20 @@ function App() {
               Black
             </button>
 
+            <button
+            className="outline-none px-4 py-1 text-white rounded-lg  "
+            style={{backgroundColor :"olive"}}
+            onClick={() => setColor("olive")}>
+              Default
+            </button>
+
+           
+
           </div>
+          
 
       </div>
+      
     </div>
       
     </>
