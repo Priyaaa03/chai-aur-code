@@ -13,7 +13,10 @@ function App() {
     console.log("Value added", Math.random)
     // counter = counter + 1;
     if(counter<20){
-      setCounter(counter+1)
+      setCounter(counter  => counter+1)
+      setCounter(counter  => counter+1)
+      setCounter(counter  => counter+1)
+      
     }else{
       alert("you exceeded the max limit")
     }
